@@ -4,6 +4,7 @@ This is the code written while roughly following the [LoopBack](https://loopback
 
 Technologies used:
 
+- loopback: 4.0.6
 - node: v18.9.0
 - npm: 9.1.2
 
@@ -24,7 +25,7 @@ npm start
 
 The OpenAPI docs should now be available at: [http://127.0.0.1:3000/explorer/](http://127.0.0.1:3000/explorer/)
 
-## Api Requests
+## API Requests
 
 The easiest way to make requests is by using the [OpenAPI UI](http://127.0.0.1:3000/explorer/) (access while the server is running locally).
 
@@ -151,7 +152,7 @@ Example response:
 204 No Content
 ```
 
-### **POST** Todos Creat `/todos`
+### **POST** Todos Create `/todos`
 
 Example request:
 
